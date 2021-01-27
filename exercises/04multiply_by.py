@@ -10,3 +10,15 @@
 # multiply_by([1, 2, 3], 5)
 #
 # > [5, 10, 15]
+
+def multiply_by(numbers, multiplier):
+    multiples = []
+    for number in numbers:
+        multiples.append(number * multiplier)
+    print(multiples)
+
+# LAMBDA VERSION (FROM JENNY'S CODE) >> lamdba = Python's version of an anonymous function
+# def multiply_by(arr, num):
+#     return list(map(lambda x: x*num, arr))
+
+multiply_by([1, 2, 3], 5)
